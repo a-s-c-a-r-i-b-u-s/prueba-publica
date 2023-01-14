@@ -65,7 +65,7 @@
 /* Custom navigation arrows */
 
 .nav-arrows span {
-	position: /*absolute*/ fixed;
+	position: absolute;
 	z-index: 2000;
 	top: 50%;
 	width: 40px;
@@ -251,7 +251,7 @@
 	padding-top: 10px;
 	display: inline-block;
 	font-style: normal;
-	text-transform: uppercse;
+	text-transform: uppercase;
 	letter-spacing: 4px;
 }
 
@@ -260,30 +260,8 @@
 /* First Slide */
 .demo-1 .bg-1 .sl-slide-inner,
 .demo-1 .bg-1 .sl-content-slice {
-	background-image: url("../../../WEBSALUD_MHHA/img/1/IMG-20190125-WA0024(1).jpg");
-	background-size: cover;
-	
+	background: #fff;
 }
-
-@media screen and (max-width: 660px){
-	
-	.demo-1 .bg-1 .sl-slide-inner,
-	.demo-1 .bg-1 .sl-content-slice {
-		width: 440px;
-    height: 334px;
-    margin: 251px 0 0 0;
-    transform: scaleY(2);
-		
-		
-	}
-	
-	
-	
-}
-
-
-
-
 
 /* Second Slide */
 .demo-1 .bg-2 .sl-slide-inner,
